@@ -1,0 +1,41 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "sass:w": "node-sass -wr app -o dist/",
+    "sass": "node-sass  app -o dist/",
+    "serve": "concurrently \"npm run tsc:w\" \"npm run sass:w\" -n \"Typescript,Sass\" -p \"name\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "~2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "angular-in-memory-web-api": "~0.1.15",
+    "core-js": "^2.4.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^3.13.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "~5.4.1",
+    "simple-server": "^1.0.1",
+    "systemjs": "0.19.40",
+    "zone.js": "^0.6.26"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "typescript": "^2.0.10"
+  }
+}
