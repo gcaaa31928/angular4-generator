@@ -1,5 +1,3 @@
-# generator-angular-4 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> 
 
 ## Installation
 
@@ -36,3 +34,11 @@ MIT © [GCA]()
 [daviddm-url]: https://david-dm.org/gcaaa31928/generator-angular-4
 [coveralls-image]: https://coveralls.io/repos/gcaaa31928/generator-angular-4/badge.svg
 [coveralls-url]: https://coveralls.io/r/gcaaa31928/generator-angular-4
+=======
+# angular4-generator
+
+```
+npm link
+yo angular-4
+```
+
